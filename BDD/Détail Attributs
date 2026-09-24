@@ -1,0 +1,2 @@
+OBSTACLES
+  diffHauteur : Distance entre la plaque ayant détecté l'obstacle et la distance moyenne calculée par les autres palpeurs
