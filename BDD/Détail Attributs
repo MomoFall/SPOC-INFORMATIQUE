@@ -1,2 +1,41 @@
-OBSTACLES
+Note explicative de certains attributs non explicite.
+
+
+PORTEURS
+  automatise : Indique si le porteur du SPOC est automatisé ou pas.
+
+ORIENTATION FIXATION
+  descriptionFixation : Indique comment le SPOC est fixé sur son porteur, permet de savoir si on mesure un mur, un sol ou un plafond.
+
+LIEU
+  nomLieu : Indique le lieu de déroulement de la mission (bassins STEL, UDG,...)
+
+DISTANCE_DUREE_MESURE
+  temperature / humidite Min / Max : Plage de température et d'humidité de fonctionnement du capteur
+  distanceMesure : Distance de mesure du capteur nucléaire pour qu'il délivre des données pertinentes
+  dureeMesure : Temps nécessaire durant lequel le capteur doit rester en position
+
+CAPTEUR_IR
+  distanceCapteur : Distance mesurée par le capteur anti-collision de la plaque palpable (cas où elle bascule proche d'un plafond)
+
+PLAQUE_CAPTEUR
+  coordonneX : Distance parcourue par la plaque capteur depuis le début de course de l'actionneur à vis trapézoïdale
+  coordonneeRY/RZ : Angle entre la structure et la plaque capteur selon y/z
+  distanceSurface : Distance entre le plan moyen de la surface à mesurer et la face murale de la plaque capteur
+  angleRY/RZ_surface : Angle entre le plan moyen de la surface à mesurer et la face murale de la plaque capteur selon y/z
+  
+DONNEES_PLAQUE
+  orientationY/Z : Angle moyenentre le plan moyen de la surface à mesurer et la face murale de la plaque palpeur selon y/z
+  prodondeur : Distance parcourue par la plaque palpeur depuis le début de course de l'actionneur à vis trapézoïdale
+  embout1 : Distance d'enfoncement d'une plaque élémentaire
+
+OBSTACLES-EMBOUTS
   diffHauteur : Distance entre la plaque ayant détecté l'obstacle et la distance moyenne calculée par les autres palpeurs
+
+EMBOUTS
+  numEmbout : N° de l'embout, de 1 à 25
+
+TYPE_MOUVEMENT
+  description : Mouvement linéaire, rotation,...
+  echelle : Pour éviter de stocker des nombres à virgules, on peut par exemple appliquer une échelle de 10 pour stocker 123 au lieu de 12.3
+
