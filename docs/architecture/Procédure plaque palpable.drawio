@@ -1,0 +1,28 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="W3YbwiP2Vihdkv19Nx6s">
+    <mxGraphModel dx="414" dy="632" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="wgX5GBfWK-pqBtk1cevC-1" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Distance &amp;gt; Distance requise" vertex="1">
+          <mxGeometry height="80" width="120" x="240" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="wgX5GBfWK-pqBtk1cevC-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Ordre lancement mesure&lt;div&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;ihm_dist&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="240" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="wgX5GBfWK-pqBtk1cevC-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Mesure de la distance&lt;div&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;VL53L0X&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="240" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="wgX5GBfWK-pqBtk1cevC-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Informer de l&#39;impossibilité de la mesure&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;ihm_dist&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="380" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="wgX5GBfWK-pqBtk1cevC-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Avancer à 100% de la vitesse moteur&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;moteur_palpeurs&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="240" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="wgX5GBfWK-pqBtk1cevC-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="Mesure capteurs effet Hall&lt;div&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;capteur_hall&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="240" y="400" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
