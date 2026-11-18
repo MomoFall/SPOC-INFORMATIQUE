@@ -1,0 +1,8 @@
+# Numéro du capteur à lire, de 1 (HALL1) à 25 (HALL25).
+uint8 numero
+---
+# Tension délivrée par le capteur, en volts (0,0 à 5,0, VREF = 5 V).
+float32 tension
+# Vrai si la lecture a réussi (faux = numéro hors plage ou erreur SPI,
+# la valeur de tension ne doit alors pas être utilisée).
+bool ok

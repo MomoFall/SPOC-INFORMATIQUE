@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>spoc_interfaces</name>
+  <version>0.1.0</version>
+  <description>Interfaces ROS 2 du projet SPOC. Contient le service LireCapteur : lecture de la tension d'un capteur Hall SS39ET de la carte A2.</description>
+  <maintainer email="spoc@example.fr">Equipe SPOC</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <!-- Outils de génération du code à partir des fichiers .srv -->
+  <buildtool_depend>rosidl_default_generators</buildtool_depend>
+
+  <!-- Nécessaire pour que le package soit reconnu comme un package d'interfaces -->
+  <member_of_group>rosidl_interface_packages</member_of_group>
+
+  <exec_depend>rosidl_default_runtime</exec_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
